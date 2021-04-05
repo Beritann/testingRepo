@@ -74,5 +74,43 @@ public class Booleans {
         System.out.println(message);
 
 
+        // FIFTH EXAMPLE
+
+       int start = 12;
+        String message = "";
+        // when start is even print "even"
+        // otherwise print start (variable value)
+
+        // code here
+        if (start % 2 == 0) {
+            message = "even";
+        } else {
+            // System.out.println(start);
+            message = "" + start;
+        }
+
+        System.out.println(message);
+
+        // SIXTH EXAMPLE
+
+
+        int start = 17;
+        String message = "";
+        // when start is odd print "odd numbers rock"
+        // when start is even and greater than 10 print "large"
+        // otherwise print "hello world"
+
+        // code here
+        if (start % 2 == 1) {
+            message = "odd numbers rock";
+        } else if (start > 10) {
+            message = "large";
+        } else {
+            message = "hello world";
+        }
+
+
+        System.out.println(message);
+
     }
  }

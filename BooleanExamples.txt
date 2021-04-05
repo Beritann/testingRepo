@@ -53,6 +53,26 @@ public class Booleans {
         message = start <10 && start > 5 ? "abc" : "good bye";
         System.out.println(message);
 
+         // FOURTH EXAMPLE
+
+
+        int start = 10;
+        String message = "";
+        // when start is greater than 10 print "huge"
+        // when start is less than 10 print "small"
+        // when start is 10 print "it's ten!"
+
+        // code here
+         if (start > 10) {
+             message = "huge";
+         } else if (start < 10) {
+             message = "small";
+         } else {
+             message ="its ten";
+         }
+
+        System.out.println(message);
+
 
     }
  }

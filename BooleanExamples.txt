@@ -36,5 +36,23 @@ public class Booleans {
 
         System.out.println(message);
 
+        // THIRD EXAMPLE
+
+        int start = 4;
+        String message = "";
+        // when start is less than 10 and greater than 5 print "abc"
+        //otherwise print "good bye"
+
+        // code here
+        if (start < 10 && start > 5) {
+            message = "abc";
+        } else {
+            message = "good bye";
+        }
+
+        message = start <10 && start > 5 ? "abc" : "good bye";
+        System.out.println(message);
+
+
     }
  }

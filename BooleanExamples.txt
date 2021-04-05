@@ -1,0 +1,20 @@
+public class Booleans {
+    public static void main(String[] args) {
+        int orionsInt = 10;
+        int erimsInt = 15;
+        boolean myBool = false;
+        // start with one 'if'
+        // then as many 'else if' as you need
+        // then can end with one 'else'
+
+        if (orionsInt == 10 || erimsInt == 10) {
+            System.out.println("!!!!");
+        } else if (orionsInt != erimsInt) {
+            System.out.println("????");
+        } else if (1 < 0) {
+            System.out.println("####");
+        } else {
+            System.out.println("java");
+        }
+      }
+    }

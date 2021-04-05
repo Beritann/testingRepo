@@ -1,20 +1,40 @@
 public class Booleans {
     public static void main(String[] args) {
-        int orionsInt = 10;
-        int erimsInt = 15;
-        boolean myBool = false;
-        // start with one 'if'
-        // then as many 'else if' as you need
-        // then can end with one 'else'
+      // FIRST EXAMPLE
+    int orionsInt = 10;
+            int erimsInt = 15;
+            boolean myBool = false;
+            // start with one 'if'
+            // then as many 'else if' as you need
+            // then can end with one 'else'
 
-        if (orionsInt == 10 || erimsInt == 10) {
-            System.out.println("!!!!");
-        } else if (orionsInt != erimsInt) {
-            System.out.println("????");
-        } else if (1 < 0) {
-            System.out.println("####");
+            if (orionsInt == 10 || erimsInt == 10) {
+                System.out.println("!!!!");
+            } else if (orionsInt != erimsInt) {
+                System.out.println("????");
+            } else if (1 < 0) {
+                System.out.println("####");
+            } else {
+                System.out.println("java");
+            }
+
+     // SECOND EXAMPLE
+
+        int start = 10;
+        String message = "";
+        // when start is 0 print "learning java is fun"
+        // when start is less than 10 but not 0 print "hello"
+        // when start is greater than 9 print "hello world"
+
+        if (start == 0) {
+            message = "learning java is fun";
+        } else if (start < 10 && start != 0) {
+            message = "hello";
         } else {
-            System.out.println("java");
+            message = "hello world";
         }
-      }
+
+        System.out.println(message);
+
     }
+ }

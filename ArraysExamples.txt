@@ -57,7 +57,7 @@ public class Arrays {
 
         //===== EXAMPLE 5
         boolean[] myBools = {true, false, true};
-        for (int i = 0; i<myBools.length; i++) {        // sirayla gidicek true false true oldugu icin green blue green olcak
+        for (int i = 0; i<myBools.length; i++) {
             if (myBools[i]) {
                 System.out.println("green");
             } else {

@@ -1,0 +1,72 @@
+public class Arrays {
+    public static void main(String[] args) {
+
+        //  WHAT IS INDEX ?
+        //      index:    0   1   2
+        //int []  myInts = {1 , 2 , 3};
+
+        // ===== EXAMPLE 1
+        String[] myStrings = {"abc", "123" , "xyz"};
+        System.out.println("value at index 0 is: " + myStrings[0]);
+
+        int[] manyInts = { 1, 8, 4, 11, 7, 9, 8, 3 , 5 };
+
+        if (manyInts[4] > manyInts[3]) {
+            System.out.println("4th index is larger than 3rd index");
+        } else {
+            System.out.println("!!!");
+        }
+
+
+           // ==== EXAMPLE 2
+        //start with int[] ints = new int[4];  use a loop to create the array {1, 2 ,3 ,4}
+
+        int[] ints = new int[4];
+        for (int i=0; i<4;i++) {
+            ints[i] = i + 1;        // #1 what is i ?
+        }
+        System.out.println(ints[0]);
+        System.out.println(ints[1]);
+        System.out.println(ints[2]);
+        System.out.println(ints[3]);
+
+
+
+        // === EXAMPLE 3
+        String [] myStrings = { "hello", "world", "java" , "rocks"};
+
+        for (int index = 0; index<myStrings.length; index++) {
+            myStrings[index] = myStrings[index] +  myStrings[index];
+        }
+
+        System.out.println(myStrings[3]);
+
+
+
+
+        // ===== EXAMPLE 4
+        boolean[] myBools = {true, false, true};
+        for (int index = 0; index<myBools.length; index++) {
+           myBools[index] = !myBools[index];
+        }
+
+        System.out.println("the second boolean is: " + myBools[1]);
+
+
+
+
+        //===== EXAMPLE 5
+        boolean[] myBools = {true, false, true};
+        for (int i = 0; i<myBools.length; i++) {        // sirayla gidicek true false true oldugu icin green blue green olcak
+            if (myBools[i]) {
+                System.out.println("green");
+            } else {
+                System.out.println("blue");
+            }
+        }
+
+
+
+
+     }
+    }
